@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#contenedorprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila {
+    display: flex;
+}
+
+.celda {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #b8e104;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 40px
+}
+
+.celda-actual {
+    background-color: red;
+}
+
+.celda-recorrido {
+    background-color: rgb(144, 0, 192);
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+#matriz {
+    display:grid;
+    grid-template-columns: repeat(5, 40px);
+    grid-template-rows: repeat(5, 40px);
+}
